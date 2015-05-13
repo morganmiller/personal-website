@@ -1,0 +1,74 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#bg2 {
+  background: url(../images/idk.jpg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+.caption {
+  zoom: 1;
+  width: 35%;
+  padding: 1.5%;
+  margin: 0;
+  position: absolute;
+  top: 22%;
+  right: 13%;
+  background: #f2c27a;
+  opacity: 0.8;
+  color: #452910;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Sumana', serif;
+  text-align: justify;
+}
+
+
+.caption h1 {
+  font-family: 'Playball', cursive;
+  color: #452910;
+  font-size: 45px;
+  line-height: 25px;
+}
+
+.caption a:link {
+  color: #485150;
+  text-decoration: none;
+}
+
+.caption a:visited {
+  color: #485150;
+  text-decoration: none;
+}
+
+.caption a:hover {
+  color: #485150; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.caption a:active {
+  color: #485150;
+  text-decoration: none;
+  font-weight: bold;
+}
